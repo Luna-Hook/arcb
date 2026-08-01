@@ -1,0 +1,42 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.token
+secrets.*
+credentials.*
+
+# Dependencies and build output
+node_modules/
+target/
+build/
+out/
+bin/
+versions/
+.gradle/
+gradle-[0-9]*/
+*.class
+*.jar
+*.log
+
+# IDE files
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
