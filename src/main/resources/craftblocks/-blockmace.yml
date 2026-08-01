@@ -1,0 +1,14 @@
+# ARCB craft block file.
+#
+# Rename from "-blockmace.yml" to "blockmace.yml" to enable it.
+# Folders starting with "-" act as disabled groups.
+#
+# Fields:
+#   material:  The Minecraft material to block from crafting.
+#   whitelist: Players allowed to craft this item anyway.
+#
+material: MACE
+whitelist:
+  - notch
+  - steve
+  - lunahook
