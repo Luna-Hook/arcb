@@ -1,0 +1,55 @@
+# v1.1.0
+# ARCB main configuration.
+
+plugin-enabled: true
+
+settings:
+  # Reload all files from disk on /arcb reload.
+  allow-runtime-reload: true
+
+messages:
+  prefix: "&7[&bARCB&7] "
+  no-permission: "&cYou do not have the required permission."
+  plugin-enabled: "&aARCB has been enabled."
+  plugin-disabled: "&cARCB has been disabled."
+  plugin-already-enabled: "&eARCB is already enabled."
+  plugin-already-disabled: "&eARCB is already disabled."
+  reloaded: "&aARCB has reloaded all files."
+  reload-disabled: "&cReloading is disabled in config.yml."
+
+  command-enabled: "&aEnabled command: &f%name%"
+  command-disabled: "&cDisabled command: &f%name%"
+  command-not-found: "&cNo command file found: &f%name%"
+  command-already-enabled: "&eCommand already enabled: &f%name%"
+  command-already-disabled: "&eCommand already disabled: &f%name%"
+
+  craftblock-enabled: "&aEnabled craft block: &f%name%"
+  craftblock-disabled: "&cDisabled craft block: &f%name%"
+  craftblock-not-found: "&cNo craft block file found: &f%name%"
+  craftblock-already-enabled: "&eCraft block already enabled: &f%name%"
+  craftblock-already-disabled: "&eCraft block already disabled: &f%name%"
+  craftblock-blocked: "&cThis item is blocked from crafting: &f%material%"
+
+  whitelist-added: "&aAdded &f%player% &ato whitelist of &f%name%"
+  whitelist-removed: "&cRemoved &f%player% &cfrom whitelist of &f%name%"
+  whitelist-list-header: "&bWhitelist for &f%name%:"
+  whitelist-entry: "&7  - &f%player%"
+  whitelist-none: "&7  (none)"
+  whitelist-already-present: "&e%player% is already whitelisted on &f%name%"
+  whitelist-not-present: "&e%player% is not whitelisted on &f%name%"
+  whitelist-file-not-found: "&cNo file found: &f%name%"
+
+  group-enabled: "&aEnabled group: &f%name%"
+  group-disabled: "&cDisabled group: &f%name%"
+  group-not-found: "&cNo group folder found: &f%name%"
+  group-already-enabled: "&eGroup already enabled: &f%name%"
+  group-already-disabled: "&eGroup already disabled: &f%name%"
+
+  status-header: "&b=== ARCB Status ==="
+  status-plugin: "&7Plugin: &f%value%"
+  status-commands-header: "&bCommands:"
+  status-command: "&7  &f%name%&7: &f%value%"
+  status-craftblocks-header: "&bCraft Blocks:"
+  status-craftblock: "&7  &f%name%&7: &f%value%"
+
+  usage: "&eUsage: /arcb <plugin|commands|craftblocks|status|reload>"

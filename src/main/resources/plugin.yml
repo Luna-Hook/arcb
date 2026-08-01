@@ -1,0 +1,15 @@
+name: ARCB
+main: dev.arcb.ARCBPlugin
+version: 1.1.0
+api-version: '1.21'
+description: Advanced Repeating Command Blocks for Paper
+authors: [Luna Hook]
+commands:
+  arcb:
+    description: Manage ARCB commands, craft blocks, and the plugin.
+    usage: /arcb <plugin|commands|craftblocks|status|reload>
+    permission: arcb.admin
+permissions:
+  arcb.admin:
+    description: Full access to ARCB management.
+    default: op
