@@ -1,0 +1,18 @@
+# ARCB repeating command file.
+#
+# Rename this file from "-clearshulker.yml" to "clearshulker.yml" to enable it.
+# Folders starting with "-" act as disabled groups — all files inside are skipped.
+#
+# Fields:
+#   command:       The console command to run. Use * for "every online player".
+#   interval-ticks Time between executions (20 ticks = 1 second).
+#   whitelist:      Players skipped when expanding *.
+#   description:    Optional label shown in /arcb status.
+#
+command: "clear * shulker_shell"
+interval-ticks: 20
+whitelist:
+  - notch
+  - steve
+  - lunahook
+description: "Clears shulker shells from non-whitelisted players"
